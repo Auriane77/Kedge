@@ -1,0 +1,67 @@
+body {
+	background-color: greenyellow;
+}
+h1, a {
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+h1{
+	color: #575F7D;
+}
+h2 {
+	color:  #7ECE90;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	background-color: white;
+	padding: 48px;
+	margin: 16px auto;
+	text-align: center;
+	width: 700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 3px #0000007d;
+}
+.img-circle {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	border: 1px solid black;
+}
+
+.btn-blue {
+	background-color: blue;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	margin: 24px auto;
+	display: block;
+	width: 25%;
+	border: 1px solid blue;
+	transition: 1s;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: blue;
+	transition: 1s;
+}
+
+.list-inline li {
+	display: inline;
+}
+.list-inline {
+	padding: 50%;
+}
+.list-inline i {
+	font-size: 48px;
+	color: rgba(255, 255, 255);
+}
+.list-inline i:hover {
+	color: black;
+}
+.list-inline i:hover {
+	transform: 	rotate(90deg);
+}
